@@ -20,16 +20,6 @@ This project implements a **2-to-4 Decoder** using CMOS logic in the **Microwind
 - D3 = (A' + B)'
 - D4 = (A' + B')'
 
-## Implementation Steps
-
-1. **Boolean Logic Simplification**
-2. **Gate-Level Schematic Design**
-3. **CMOS Transistor-Level Design**
-4. **Stick Diagram Drawing**
-5. **Layout Design using Microwind**
-6. **Simulation for all input combinations**
-
-
 ## Simulation Results
 
 - **Rise Time:** 9 ps  
