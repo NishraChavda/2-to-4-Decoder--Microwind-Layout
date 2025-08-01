@@ -4,8 +4,6 @@
 
 This project implements a **2-to-4 Decoder** using CMOS logic in the **Microwind VLSI layout tool**. The decoder takes 2 input signals (A and B) and activates only one of the 4 outputs (D1 to D4) based on the binary combination of inputs.
 
----
-
 ## Truth Table
 
 | A | B | D1 | D2 | D3 | D4 |
@@ -15,16 +13,12 @@ This project implements a **2-to-4 Decoder** using CMOS logic in the **Microwind
 | 1 | 0 |  0 |  0 |  1 |  0 |
 | 1 | 1 |  0 |  0 |  0 |  1 |
 
----
-
 ## Optimized Boolean Equations
 
 - D1 = (A + B)'
 - D2 = (A + B')'
 - D3 = (A' + B)'
 - D4 = (A' + B')'
-
----
 
 ## Implementation Steps
 
@@ -35,7 +29,6 @@ This project implements a **2-to-4 Decoder** using CMOS logic in the **Microwind
 5. **Layout Design using Microwind**
 6. **Simulation for all input combinations**
 
----
 
 ## Simulation Results
 
@@ -47,20 +40,17 @@ This project implements a **2-to-4 Decoder** using CMOS logic in the **Microwind
 - **VIH (Input High Voltage):** 0.62 V  
 - **VIL (Input Low Voltage):** 0.4 V  
 
----
 
 ## Output Resistance
 
 - **LOW output (NMOS ON):** ~20 KΩ  
 - **HIGH output (PMOS ON):** ~40 KΩ  
 
----
 
 ## Tools Used
 
 - **Microwind** (for CMOS layout and simulation)
 
----
 
 ## Conclusion
 
